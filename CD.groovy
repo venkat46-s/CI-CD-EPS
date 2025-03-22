@@ -18,7 +18,7 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/main']], // Replace with the correct branch if needed
                     userRemoteConfigs: [[
-                        url: 'https://github.com/Deepak-0822/theonemoment.git', // Replace with your repo URL
+                        url: 'https://github.com/Dee/theonemoment.git', // Replace with your repo URL
                         // credentialsId: 'c70fd5a3-dbcc-45df-b4d6-098b46d25cc9' // Replace with your Bitbucket credentials ID
                     ]]
                 ])
